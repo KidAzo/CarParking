@@ -7,9 +7,6 @@ using Random = UnityEngine.Random;
 
 public class CameraShake : MonoBehaviour
 {
-    
-
-     
      public async UniTaskVoid Camera_Shake(float duration,float magnitude)
      {
           Vector3 originalPos = transform.localPosition;
